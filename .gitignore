@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+
+# Local datasets and generated lakehouse data
+data/raw/*
+data/sample/*
+data/bronze/
+data/silver/
+data/gold/
+
+# Keep placeholders for empty data directories
+!data/raw/.gitkeep
+!data/sample/.gitkeep
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Logs
+*.log
